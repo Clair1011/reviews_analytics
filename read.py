@@ -22,3 +22,12 @@ for d in data:
 print('小於100的留言總共有: ', len(new), '筆留言')
 print(new[0])
 print(new[3])
+
+# 篩選留言中有good的留言數
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(len(data))
+print ('有good的留言總共: ', len(good), '筆' )
+print (good[0])
